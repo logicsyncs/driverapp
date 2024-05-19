@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:padding="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_weight="0.25"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtClientName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Client Name"
+        android:layout_weight="0.5"
+        android:textColor="@color/et_hint_gray" />
+
+        <TextView
+            android:id="@+id/txtClientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Client Name"
+            android:layout_weight="0.5"
+            android:textColor="@color/et_hint_gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_weight="0.25"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtInTime1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="In Time"
+            android:layout_weight="1"
+            android:textColor="@color/et_hint_gray" />
+
+
+    <TextView
+        android:id="@+id/txtInTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="In Time"
+        android:layout_weight="1"
+        android:textColor="@color/et_hint_gray" />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_weight="0.25"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtOutTime1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:text="OutTime"
+            android:textColor="@color/et_hint_gray" />
+
+    <TextView
+        android:id="@+id/txtOutTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_weight="1"
+        android:text="OutTime"
+        android:textColor="@color/et_hint_gray" />
+
+        </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_weight="1"-->
+<!--        android:weightSum="1">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_weight="0.25"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Duration"
+            android:layout_weight="1"
+            android:textColor="@color/et_hint_gray" />
+
+        <TextView
+            android:id="@+id/txtduration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text=""
+            android:layout_weight="1"
+            android:textColor="@color/et_hint_gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_weight="0.25"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtStatus1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Status"
+            android:layout_weight="1"
+            android:textColor="@color/et_hint_gray" />
+
+        <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Status"
+            android:layout_weight="1"
+            android:textColor="@color/et_hint_gray" />
+
+</LinearLayout>
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+
+
+
+    </LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_3dp"
+    android:background="@drawable/corner_design"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/imgToolIcon"
+        android:layout_width="@dimen/_30dp"
+        android:layout_height="@dimen/_30dp"
+        android:layout_margin="4dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_save"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtTool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="6dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_10sp"
+        tools:text="Brush" />
+
+</LinearLayout>

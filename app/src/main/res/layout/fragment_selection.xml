@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+
+    <Button
+        android:id="@+id/btnmaterial_reports"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_margin="15dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/login_button_selector"
+        android:text="Material Collection" />
+
+    <Button
+        android:id="@+id/btn_reports_bills"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_margin="15dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/login_button_selector"
+        android:text="Reports and Bills Submittion " />
+
+
+</LinearLayout>
+
+
+
+

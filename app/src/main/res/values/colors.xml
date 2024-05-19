@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#FFA000</color>
+    <color name="ColorPrimaryDark">#FFA000</color>
+    <color name="tabsScrollColor">#000000</color>
+
+    <color name="colorAccent">#F34141</color>
+    <color name="white">#FFF</color>
+
+    <color name="OrangeDark">#FF8000</color>
+    <color name="BlueDark">#2E2EFE</color>
+
+    <color name="GreenCool">#5FB404</color>
+    <color name="RedCool">#F34141</color>
+    <color name="GreenLight">#A5DF00</color>
+    <color name="OrangeLight">#FAAC58</color>
+    <color name="Red2">#FA5858</color>
+    <color name="lightGrey">#D8D8D8</color>
+
+    <color name="nliveo_gray">#212121</color>
+    <color name="nliveo_divider">#80B6B6B6</color>
+    <color name="nliveo_black_light">#222222</color>
+    <color name="nliveo_transparent">#424242</color>
+
+    <color name="yellow_green">#9EC33A</color>
+    <color name="royal_blue">#4FAEDE</color>
+
+    <color name="dark_green">#006600</color>
+    <color name="dark_blue">#0000cc</color>
+    <color name="et_hint_gray">#727272</color>
+    <color name="light_blue">#90caf9</color>
+    <color name="light_orange">#ffb74d</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="colorPrimaryFaint">#8EC7F4</color>
+    <color name="colorPrimaryDark">#26A69A</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="colorRed">#F43535</color>
+    <color name="greenColor">#57b952</color>
+    <color name="black">#FF000000</color>
+
+    <color name="semi_black_transparent">#99000000</color>
+
+    <!--Color Codes for edit photo-->
+    <color name="blue_color_picker">#0066FF</color>
+    <color name="brown_color_picker">#AF593E</color>
+    <color name="green_color_picker">#01A368</color>
+    <color name="orange_color_picker">#FF861F</color>
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="red_orange_color_picker">#FF3F34</color>
+    <color name="sky_blue_color_picker">#76D7EA</color>
+    <color name="violet_color_picker">#8359A3</color>
+    <color name="yellow_color_picker">#FBE870</color>
+    <color name="yellow_green_color_picker">#C5E17A</color>
+    <!--Color Codes for edit photo-->
+
+    <!--Color codes for question list-->
+    <color name="answered_yes">#006600</color>
+    <color name="answered_no">#FF0000</color>
+    <color name="answered_na">#B3B1B1</color>
+    <color name="answered_na_old">#D3D3D3</color>
+    <!--Color codes for question list-->
+
+    <integer-array name="progressBarColors">
+        <item>@color/yellow_green</item>
+        <item>@color/royal_blue</item>
+    </integer-array>
+</resources>
